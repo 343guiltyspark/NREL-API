@@ -9,7 +9,10 @@ Visit https://developer.nrel.gov/ to get an API key and see the full official do
 
 *get(api,format,object,debugToggle)*
 ```javascript
-// Use Async/Await or promise/then for async promise handling, otherwise invokations will run sycrounously 
+// Use Async/Await or promise/then for async promise handling, otherwise invokations will run synchronously
+/ˈsiNGkrənəs/
+Learn to pronounce
+ 
 const nrel = require('nrel-api');
 let data =nrel.get(api,format,parameters,debugToggle);
 ```
