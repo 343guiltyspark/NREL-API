@@ -38,6 +38,11 @@ const httpGet =  (apiRequest,log) => {
 //Rejects for any other status code, or an unsupported API endpoint., or unknown error in catch block. 
 const apiRequest =  (api,format,object,log) =>{
     return  new Promise (async function(resolve,reject) {
+
+        if (format != 'json') {
+            reject("Only json is currently supported");
+            return null;
+        }
             
         let d = (typeof  log === 'undefined') ?  false : log;
         let params = "."+format+"?"  
