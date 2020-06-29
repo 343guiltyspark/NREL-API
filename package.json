@@ -1,0 +1,32 @@
+{
+  "name": "nrel-api",
+  "version": "1.0.0",
+  "description": "Module for NREL API   ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/343guiltyspark/NREL-API.git"
+  },
+  "keywords": [
+    "nrel",
+    "api",
+    "electric",
+    "vehicles",
+    "alternative",
+    "energy",
+    "National",
+    "Renewable",
+    "Energy",
+    "Laboratory",
+    "API"
+  ],
+  "author": "343guiltyspark",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/343guiltyspark/NREL-API/issues"
+  },
+  "homepage": "https://github.com/343guiltyspark/NREL-API#readme"
+}
