@@ -35,7 +35,7 @@ const httpGet =  (apiRequest,log) => {
 //Api Request builder 
 //Calls http connection 
 //Resolves upon a 200 status from http connections
-//Rejects for any other status code, or an unsupported API endpoint., or unknown error in catch block. 
+//Rejects for any other status code, or an unsupported API endpoint, or unknown error in catch block. 
 const apiRequest =  (api,format,object,log) =>{
     return  new Promise (async function(resolve,reject) {
 
