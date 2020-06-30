@@ -1,6 +1,6 @@
 {
   "name": "nrel-api",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Module for NREL API   ",
   "main": "index.js",
   "scripts": {
@@ -13,15 +13,10 @@
   "keywords": [
     "nrel",
     "api",
-    "electric",
-    "vehicles",
-    "alternative",
-    "energy",
-    "National",
-    "Renewable",
-    "Energy",
-    "Laboratory",
-    "API"
+    "electric vehicles",
+    "alternative energy",
+    "National Renewable Energy Laboratory",
+    "ChargeBuddyApp"
   ],
   "author": "343guiltyspark",
   "license": "MIT",
